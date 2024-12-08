@@ -1,3 +1,5 @@
+Inner classes are classes defined within other classes. Inner classes are used to logically group classes in one place, enhance encapsulation, and improve code readability
+Type of inner classes:
 1. Static Inner Class:
     A. When you need to associate a class with its outer class but don’t need access to the outer class's instance members.
         For example, when creating a node in a data structure like a LinkedList or BinaryTree.
