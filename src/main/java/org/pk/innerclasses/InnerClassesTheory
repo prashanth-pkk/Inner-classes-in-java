@@ -1,0 +1,23 @@
+1. Static Inner Class:
+    A. When you need to associate a class with its outer class but don’t need access to the outer class's instance members.
+        For example, when creating a node in a data structure like a LinkedList or BinaryTree.
+    B. When the inner class doesn’t depend on the instance of the outer class.
+        This is useful when creating utility classes that don't need to interact with the outer class's instance variables.
+    C. When you want to create a helper class that can be instantiated independently of the outer class instance.
+        A good example is the Node class in a linked list or tree, where nodes are generally independent of the specific instance of the list or tree.
+2. Local Inner Class:
+    Local inner classes are typically used in asynchronous operations, like network requests, where a callback function is required once the task is done.
+3. Member Inner Class:
+    This scenario is common in server-side applications or background tasks where threads perform operations and interact with instance variables of the outer class.
+4. Anonymous Inner Class:
+    A. Callback Mechanisms: In situations where a function or method requires a callback, anonymous inner classes are used to define the callback behavior without the need for creating a separate class.
+        For example, callbacks in network operations or asynchronous tasks.
+    B. Threading: Anonymous inner classes are often used in multi-threading scenarios, especially when you want to override a method from a class (like Thread) or implement an interface (like Runnable) in a short and concise way.
+    C. Strategy Pattern or Command Pattern: When you need to pass different behaviors dynamically (i.e., concrete implementations of an interface), anonymous inner classes can provide a convenient and concise way to define the behavior in-place.
+
+
+
+
+
+
+
